@@ -1,3 +1,47 @@
+html {
+  background-color: green;
+}
+
 body {
   background-color: green;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 5;
+
+}
+
+
+#image {
+  display: flex;
+  justify-content: center;
+  flex-grow: 4;
+  background-color: green;
+  align-content: center;
+  /* width: 100px;
+  height: 100px;
+  resize: both;
+  image-resolution: 100px; */
+
+}
+
+.info {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  font-size: 40px;
+  flex-grow: 1;
+  width: 50rem;
+  /* position: relative; */
+}
+
+#buttons {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  width: 50rem;
+  flex-grow: 1;
 }
