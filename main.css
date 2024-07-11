@@ -1,47 +1,36 @@
 html {
-  background-color: green;
+  background-color: slateblue;
 }
 
 body {
-  background-color: green;
+  background-color: slateblue;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  flex-grow: 5;
-
 }
-
 
 #image {
   display: flex;
   justify-content: center;
-  flex-grow: 4;
-  background-color: green;
+  background-color: slateblue;
   align-content: center;
-  /* width: 100px;
-  height: 100px;
-  resize: both;
-  image-resolution: 100px; */
-
 }
 
 .info {
-  background-color: black;
+  background-color: slateblue;
   color: white;
   display: flex;
   align-self: center;
   justify-content: center;
   font-size: 40px;
-  flex-grow: 1;
-  width: 50rem;
-  /* position: relative; */
+  width: 100%;
 }
 
 #buttons {
-  background-color: black;
-  display: flex;
+  background-color: slateblue;
+  color: orange;
+  display: inline-block;
   justify-content: center;
-  width: 50rem;
-  flex-grow: 1;
+  width: 100%;
 }
